@@ -8,7 +8,7 @@ function startFaccat() {
     for (let i = 0; i <= 47; i++) {
         wrap.innerHTML += `
         <div class="card hvr-grow" onclick="exercicio${i + 1}()">
-            <img src="/logica.png" alt="">
+            <img src="./logica.png" alt="">
             <div class="details">
                 <h2>Exercicio ${i < 9 ? "0" + (i + 1) : i + 1}</h2>
             </div>
