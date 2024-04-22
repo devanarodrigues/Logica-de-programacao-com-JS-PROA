@@ -1,10 +1,8 @@
 let cont = 1
 let acc = 0
 
-
 do {
     numeroFatorar = parseInt(prompt(`Digite o ${cont}° número:`))
-
 
     let contadorFatorial = 1
     let fatorial = 1
