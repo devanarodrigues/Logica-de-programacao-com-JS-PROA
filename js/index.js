@@ -6,7 +6,7 @@ function startFaccat() {
     document.getElementById("manzano").style.display = 'none'
     wrap.innerHTML += `<button type="button" id="voltar" onclick="voltar()">Voltar</button>`
 
-    for (let i = 0; i <= 47; i++) {
+    for (let i = 0; i <= 42; i++) {
         wrap.innerHTML += `
         <div class="card hvr-grow" onclick="exercicio${i + 1}()">
             <img src="https://i.ibb.co/TkS8zDJ/f8e-Cj-Fl-Imgur.png" width="30px" height="60px" alt="">
